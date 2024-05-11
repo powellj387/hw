@@ -1,0 +1,17 @@
+CS360 Spring 2024
+File System Homework
+Due Saturday May 11 by 9am
+Will not be accepted late. To hand in, submit a PDF to Moodle. The PDF should be named
+username.hw4.pdf, e.g., meehean_j.hw4.pdf.
+Answer all of the questions in your own words; I already know what the book says.
+1. Program P1 needs to read 10MBs sequentially from an inner track of the hard disk
+drive. Program P2 needs to read 10MBs sequentially from an outer track. Which
+approach would result in the least amount of overhead: (a) do all of P1’s reads
+first, then P2’s; (b) handle P1’s and P2’s requests as they arrive (intermingled); (c) it
+does not matter? Explain.
+2. What are the advantages/disadvantages of Nearest Block scheduling?
+3. How does the Fast File System treat large files differently? Why?
+4. Explain why a journal write (consisting of TxB, metadata, and data) is a separate
+operation from a journal commit. Why not do both operations simultaneously?
+5. What additional write ordering does metadata journaling require that data
+journaling does not? Why?
